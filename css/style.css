@@ -102,6 +102,23 @@ nav ul li {
     object-fit: cover;
 }
 
+.hero img {
+    transition: transform 2s ease-in-out;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+.lift-off {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.lift-off:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .bio {
     width: 25rem;
     margin: 2rem;
@@ -109,7 +126,14 @@ nav ul li {
     border-radius: 7px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     background-color: #e3e6ff;
-    opacity: 80%;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 .bio h1 {
@@ -121,6 +145,14 @@ nav ul li {
     padding: 0.3rem 0;
     max-width: 500px;
     min-width: 320px;
+}
+
+.bio {
+    transition: transform 0.3s ease-in-out;
+}
+
+.bio:hover {
+    transform: scale(1.1);
 }
 
 .more-about {
