@@ -24,7 +24,7 @@
 
     <section class="hero" id="about">
         <img src="images/girl.jpg" alt="a woman with a laptop" loading="lazy" class="hero-img">
-        <div class="bio animate__animated animate__shakeX">
+        <article class="bio animate__animated animate__shakeX">
             <h2 class="bio-title">About Me</h2>
             <p class="bio-text">
                 <br>
@@ -34,12 +34,12 @@
                 <br><br>
                 Love reading detectives, doing cardio and drinking coffee (not simulteniuosly though :D)!
             </p>
-        </div>
+        </article>
     </section>
 
     <section class="more-about lift-off">
         <h2>More About Me</h2>
-        <div class="about-me">
+        <article class="about-me">
             <p>
                 Hey, I am Diliara or Di (just like the princess). I moved to Sweden June 2022, but my journey into frontend development started just this autumn. 
                 <br><br>
@@ -49,45 +49,42 @@
                 <br><br>
                 It has been an interesting mix of tech and languages, and I am all about exploring new things in both areas.
             </p>
-        </div>
+        </article>
     </section>
 
     <section class="skills" id="skills">
         <h2 class="skill-header">My Skills</h2>
 
-        <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
+        <section class="skills-wrapper">
+            <section class="first-set animate__animated animate__pulse">
                 <img src="images/html.png" alt="" loading="lazy" class="icon icon-card lift-off">
                 <img src="images/css.png" alt="" loading="lazy" class="icon icon-card lift-off">
                 <img src="images/js.png" alt="" loading="lazy" class="icon icon-card darker-image">
-            </div>
-        </div>
+            </section>
+        </section>
     </section>
 
     <section class="contact" id="contact">
         <h2>Get In Touch With Me</h2>
-        <div class="contact-form-container">
-            <div class="contact-form">
+        <section class="contact-form-container">
+            <section class="contact-form">
                 <form action="https://formspree.io/f/xyylngw" method="POST">
-                    <div class="form-control">
+                    <section class="form-control">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name"
-                            class="input-field" required>
-                    </div>
-                    <div class="form-control">
+                        <input type="text" id="name" name="sender-name" placeholder="John Doe" aria-label="Enter your full name" class="input-field" required>
+                    </section>
+                    <section class="form-control">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
-                            class="input-field" required>
-                    </div>
-                    <div class="form-control">
+                        <input type="email" id="email" name="sender-email" placeholder="john.doe@example.com" aria-label="Enter your email address" class="input-field" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </section>
+                    <section class="form-control">
                         <label for="message">Message</label>
-                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
-                            class="input-field" required></textarea>
-                    </div>
+                        <textarea id="message" cols="60" rows="10" placeholder="Write your message here" name="message" aria-label="Enter your message" class="input-field" required></textarea>
+                    </section>
                     <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
                 </form>
-            </div>
-        </div>
+            </section>
+        </section>
     </section>
 </body>
 
