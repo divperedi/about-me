@@ -293,6 +293,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 @keyframes color-change {
     0% { color: blue; }
     50% { color: green; }
@@ -300,7 +301,7 @@ footer {
 }
 
 .animated-text {
-    animation: color-change 2s infinite;
+    animation: color-change 5s infinite;
 }
 
 @media screen and (max-width: 600px) {
