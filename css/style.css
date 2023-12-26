@@ -283,7 +283,7 @@ body {
     filter: brightness(50%);
 }
 
-footer {
+/* footer {
     background-color: var(--bg-color);
     padding: 1.5rem 3.5rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -302,7 +302,7 @@ footer {
 
 .animated-text {
     animation: color-change 5s infinite;
-}
+} */
 
 @media screen and (max-width: 600px) {
     nav {
