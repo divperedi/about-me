@@ -279,9 +279,10 @@ body {
     cursor: pointer;
 }
 
-.darker-image {
+/* It was used to darken js image to make it look disabled */
+/* .darker-image {
     filter: brightness(50%);
-}
+} */
 
 /* footer {
     background-color: var(--bg-color);
